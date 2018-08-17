@@ -1,0 +1,9 @@
+
+It seems that you have not initiated your master branch properly. Have you commited your files? Try (assuming you are on master branch):
+
+git add .
+git commit -m "First commit"
+git push heroku master:master
+Another, more direct approach, is to push the HEAD:
+
+git push heroku HEAD:master
